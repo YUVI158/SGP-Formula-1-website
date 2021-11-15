@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+    
+  }
+  body{
+  }
+  .header{
+    min-height: 100vh;
+    width: 101%;
+    background-image: linear-gradient(rgba(0, 0, 0,0.30),rgba(0, 0, 0,0.30)),url(driver.jfif);
+    background-position: center;
+    background-size: cover;
+    /* position: relative;  */
+    font-family: 'Mukta', sans-serif;
+    
+  }
+  .textb{
+    width: 90%;
+    color: rgb(245, 226, 190);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .blurr{
+  background-color: rgb(248, 213, 166);
+  }
+  .textb h1{
+    font-size: 80px;
+  }
+  .textb h3{
+  font-size: 30px;
+  }
+  .textb p{
+    font-size: 20px;
+    margin: 10px 0 40px;
+  }
+  .track{
+  
+  }
+  .thead{
+    padding: 20px 40px;
+    font-weight: 400;
+    font-size: 30px;
+    filter:drop-shadow(-3px 3px 2px rgba(0, 0, 0, 0.363));
+  }
+  table{
+    text-align: center;
+  }
+  .tbody{
+    padding: 18px 40px;
+    font-weight: 700;
+    font-size: 28px;
+    filter:drop-shadow(-1px 2px 1px );
+  }
+  .mer {
+    font-size: 30px;
+    font-weight: bold;
+    color: #00dbdb;
+    
+}
+.red {
+    font-size: 30px;
+    font-weight: bold;
+    color: #030e70;
+    
+}
+.mcl{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff9800;
+}
+.ast{
+    font-size: 30px;
+    font-weight: bold;
+    color: #005850;
+}
+.alp{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1789d9;
+    
+}
+.fer{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff1400;
+    
+}
+.apt{
+    font-size: 30px;
+    font-weight: bold;
+    color: #01153b;
+    
+}
+.alf{
+    font-size: 30px;
+    font-weight: bold;
+    color: #880011;
+    
+}
+.wil{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1616da;
+    
+}
+.has{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+    
+}
+  
+  .head1{
+    filter:drop-shadow(-3px 3px 2px rgba(0, 0, 0, 0.363));
+    line-height: 36px;
+    font-size: 48px;
+    padding-top: 125px;
+    padding-bottom: 15px;
+    margin-bottom: 100px;
+    }
+  .info{
+  margin-top: 26px;
+  margin-bottom: 80px;
+  
+  }
+  .trkinfo{
+  font-size: 21px;
+  }
+  .boldinfo{
+  font-weight: 700;
+  }
+  .lightinfo{
+  font-weight: 100;
+  }
+  
+  
+  nav{
+    background:transparent;
+    /* backdrop-filter: blur(10px); */
+  }
+  nav::after{
+    content: '';
+    clear: both;
+    display: table;
+  }
+  nav ul{
+    z-index: 10;
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+  }
+  nav ul li{
+    float: left;
+    display: inline-block;
+    background: transparent;
+    margin: 5px 10px;
+  }
+  nav ul li a{
+    color: wheat;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 14px;
+  }
+  nav ul li a:hover{
+    border-bottom:2px solid rgb(25, 0, 255);
+    
+  }
+  nav ul ul{
+    z-index: 100;
+    position: absolute;
+    top: 100px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.4s;
+    
+    backdrop-filter: blur(11px);
+    padding-left: 15px;
+  }
+  nav ul ul ul{
+    z-index: 100;
+    backdrop-filter: blur(11px);
+  }
+  .teamlist{
+    width: 145px;
+  }
+  
+  .carlist{
+    width: 120px;
+  }
+  nav ul li:hover > ul{
+    top: 40px;
+    opacity: 1;
+    visibility: visible;
+  }
+  nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 185px;
+    float: none;
+    display: list-item;
+    
+  }
+  .tracklist2{
+    width: 225px;
+  }
+  nav ul ul li a{
+    font-size: 14px;
+  }
+  nav ul ul li a:hover{
+    border-bottom: 2px solid rgb(47, 0, 255);
+  }
+  nav ul ul ul li{
+    position: relative;
+    top: -38px;
+    left: 50px;
+  }
+  nav ul ul li a{
+    line-height: 27px;
+  }
+  .show,.icon, input{
+    display: none;
+  }
+  .fa-plus{
+    font-size: 15px;
+    margin-left: 40px;
+  }
+  
+  /* nav .fas{
+    display: none;
+  } */
+  .fa-plus{
+  font-size: 15px;
+  margin-left: 40px;
+  }
+  @media all and (max-width: 968px){
+  nav ul{
+    backdrop-filter: blur(10px);
+  }
+    nav.logo{
+        padding-left: 30px;
+        width: 100%;
+    }
+    .sidenav{
+      font-size: 28px;
+      margin-left: 20px;
+      line-height: 70px;
+    }
+    .sidenav:hover{
+      color: blue;
+      border: none;
+    }
+    .tracklist2{
+      width: 100%;
+    }
+    .fa, .far, .fas {
+      font-family: "Font Awesome 5 Free";
+    }
+    nav ul li, nav ul ul li{
+        display: block;
+        width: 100%;
+    }
+    nav ul ul{
+        top: 10px;
+        position: static;
+        float: none;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+    .carlist{
+        width: 260px;
+      }
+    .teamlist{
+      width: 100%;
+    }
+    nav ul ul ul li{
+        position: static;
+    }
+    nav ul ul li a{
+      font-size: 26px;
+      line-height: 32px;
+    }
+    nav ul ul a{
+        padding-left:40px ;
+    }
+    nav ul ul ul a{
+        padding-left:40px ;
+    }
+    .show{
+        display: block;
+        color: wheat;
+        font-size: 28px;
+        padding: 0 20px;
+        line-height: 70px;
+        cursor: pointer;
+    }
+    .show:hover{
+        color:  blue;
+    }
+    .icon{
+        display: block;
+        color:wheat;
+        position: absolute;
+        right: 15px;
+        top: 1px;
+        line-height: 70px;
+        font-size: 32px;
+        cursor: pointer;
+    }
+    .content{
+      z-index: -1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-51%);
+      text-align: center;
+    }
+    span.cancel:before{
+      content: '\f00d';
+    }
+    nav ul li a:hover{
+        box-shadow: none;
+    }
+    .show + a, ul{
+        display: none;
+    }
+    [id^=btn]:checked + ul{
+        display: block;
+        margin-right: 2px;
+        
+    }
+  }

@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+    
+  }
+  body{
+  }
+  .header{
+    min-height: 100vh;
+    width: 101%;
+    background-image: linear-gradient(rgba(0, 0, 0,0.450),rgba(0, 0, 0,0.450)),url(Tracks\ Cover.jpg);
+    background-position: center;
+    background-size: cover;
+    /* position: relative;  */
+    font-family: 'Mukta', sans-serif;
+    
+  }
+  .textb{
+    width: 90%;
+    color: rgb(245, 226, 190);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .blurr{
+  background-color: rgb(248, 213, 166);
+  }
+  .textb h1{
+    font-size: 80px;
+  }
+  .textb h3{
+  font-size: 30px;
+  }
+  .textb p{
+    font-size: 20px;
+    margin: 10px 0 40px;
+  }
+  .track{
+  
+  }
+  .vb{
+    color: blueviolet;
+    font-weight: 550;
+  }
+  .space{
+    margin-bottom: 20px;
+  }
+  .track{
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  padding-left: 18px;
+  padding-top: 75px;
+  padding-bottom: 15px;
+  }
+  .eventsf1{
+  filter:drop-shadow(-3px 3px 2px rgba(0, 0, 0, 0.363));
+  font-size: 28px;
+  
+  }
+  .name{
+  filter:drop-shadow(-3px 3px 2px rgba(0, 0, 0, 0.363));
+  font-size: 38px;
+  padding-top: 50px;
+  }
+  .tyres{
+  margin: 100px 0px 140px 0px;
+  }
+  .tyrec{}
+  .tyrec{
+  margin: 0px 40px;
+  }
+  .headtop{
+      font-size: 35px;
+      filter:drop-shadow(-3px 3px 2px rgba(0, 0, 0, 0.363));
+      padding: 45px 0;
+  }
+  .bac{
+      background: rgb(228, 227, 227);
+  }
+  .exp{
+      margin-top: 25px;
+      margin-bottom: 20px;
+  }
+  .div{
+      background: white;
+      display: inline-block;
+      border-radius: 20px;
+      padding: 13px 27px;
+      margin: 30px 40px;
+  }
+  .pre{
+      padding-top: 30px;
+      padding-bottom: 25px;
+      font-size: 18px;
+      filter:drop-shadow(-1px 2px 2px rgba(0, 0, 0, 0.363));
+      display: inline-block;
+  }
+  .pre2{
+      font-size: 18px;
+      filter:drop-shadow(-1px 2px 2px rgba(0, 0, 0, 0.363));
+      display: inline-block;
+  }
+  .sha{
+      border-radius: 10px;
+      background: rgb(236, 236, 236);
+      padding: 15px;
+      font-size: 15px;
+      border: none;
+
+  }
+  .sha:hover{
+    filter:drop-shadow(0px 6.5px 5.5px rgba(0, 0, 0, 0.363));
+    background: rgb(221, 221, 221);
+    transition: 0.4s;
+  }
+  .trak{
+      padding: 10px 39.5px;
+  }
+  .trak2{
+      padding: 28px 39.5px;
+  }
+  .trak3{
+      padding: 37px 39.5px;
+  }
+  .trak4{
+      padding: 51px 39.5px;
+  }
+  .trak5{
+      padding: 39px 39.5px;
+  }
+  .trak6{
+      padding: 52px 39.5px;
+  }
+  .trak7{
+      padding: 17px 39.5px;
+  }
+  .trak8{
+      padding: 24px 39.5px;
+  }
+  .trak9{
+      padding: 25px 39.5px;
+  }
+  .trak10{
+      padding: 6px 64.5px;
+  }
+  .trak11{
+      padding: 18px 39.5px;
+  }
+  .trak12{
+      padding: 5px 69.5px;
+  }
+  .trak13{
+      padding: 30px 39.5px;
+  }
+  .trak14{
+      padding: 45px 39.5px;
+  }
+  .trak15{
+      padding: 14px 39.5px;
+  }
+  .trak16{
+      padding: 20px 39.5px;
+  }
+  .trak17{
+      padding: 17px 0px;
+  }
+  .trak18{
+      padding: 20px 39.5px;
+  }
+  .trak19{
+      padding: 4px 39.5px;
+  }
+  .trak20{
+      padding: 22px 39.5px;
+  }
+  .trak21{
+      padding: 39.5px 39.5px;
+  }
+  .head1{
+  z-index: 1000;
+  filter:drop-shadow(-3px 3px 2px rgba(0, 0, 0, 0.363));
+  line-height: 36px;
+  font-size: 23px;
+  padding: 4px 0px;
+  }
+  .info{
+  margin-top: 26px;
+  margin-bottom: 80px;
+  
+  }
+  .trkinfo{
+  font-size: 21px;
+  }
+  .boldinfo{
+  font-weight: 700;
+  }
+  .lightinfo{
+  font-weight: 100;
+  font-size: 15px;
+  filter:drop-shadow(-1px 2px 2px rgba(0, 0, 0, 0.363));
+  }
+  .li1{
+  padding-left: 5px;
+  }
+  .li2{
+  padding-left: 147px;
+  }
+  .li3{
+  padding-left: 120px;
+  }
+  .li4{
+  padding-left: 120px;
+  }
+  .li5{
+  padding-left: 5px;
+  }
+  .li6{
+  padding-left: 280px;
+  }
+  .li7{
+  padding-left: 10px;
+  }
+  .padright{
+  padding-right: 52px;
+  }
+  summary{
+  
+  width: 8%;
+  list-style: none;
+  background: wheat;
+  box-sizing: border-box;
+  backdrop-filter: blur(100px);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  }
+  .tran{
+  transition: top 2s;
+  }
+  .drop{
+  margin-top: 35px;
+  }
+  .Racemenu{
+  font-size: 20px;
+  }
+  table{
+  margin-top: 40px;
+  }
+  td{
+  padding: 12px 40px;
+  }
+  .eventtime{
+  font-size: 20px;
+  }
+  .events{
+  filter:drop-shadow(-3px 3px 2px rgba(0, 0, 0, 0.363));
+  font-size: 38px;
+  margin-bottom: 50px;
+  margin-top: 35px;
+  }
+  nav{
+    background:transparent;
+    /* backdrop-filter: blur(10px); */
+  }
+  nav::after{
+    content: '';
+    clear: both;
+    display: table;
+  }
+  nav ul{
+    z-index: 10;
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+  }
+  nav ul li{
+    float: left;
+    display: inline-block;
+    background: transparent;
+    margin: 5px 10px;
+  }
+  nav ul li a{
+    color: wheat;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 14px;
+  }
+  nav ul li a:hover{
+    border-bottom:2px solid rgb(25, 0, 255);
+    
+  }
+  nav ul ul{
+    z-index: 100;
+    position: absolute;
+    top: 100px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.4s;
+    
+    backdrop-filter: blur(11px);
+    padding-left: 15px;
+  }
+  nav ul ul ul{
+    z-index: 100;
+    backdrop-filter: blur(11px);
+  }
+  .teamlist{
+    width: 145px;
+  }
+  
+  .carlist{
+    width: 120px;
+  }
+  nav ul li:hover > ul{
+    top: 40px;
+    opacity: 1;
+    visibility: visible;
+  }
+  nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 185px;
+    float: none;
+    display: list-item;
+    
+  }
+  .tracklist2{
+    width: 225px;
+  }
+  nav ul ul li a{
+    font-size: 14px;
+  }
+  nav ul ul li a:hover{
+    border-bottom: 2px solid rgb(47, 0, 255);
+  }
+  nav ul ul ul li{
+    position: relative;
+    top: -38px;
+    left: 50px;
+  }
+  nav ul ul li a{
+    line-height: 27px;
+  }
+  .show,.icon, input{
+    display: none;
+  }
+  .fa-plus{
+    font-size: 15px;
+    margin-left: 40px;
+  }
+  
+  /* nav .fas{
+    display: none;
+  } */
+  .fa-plus{
+  font-size: 15px;
+  margin-left: 40px;
+  }
+  @media all and (max-width: 968px){
+  nav ul{
+    backdrop-filter: blur(10px);
+  }
+    nav.logo{
+        padding-left: 30px;
+        width: 100%;
+    }
+    .sidenav{
+      font-size: 28px;
+      margin-left: 20px;
+      line-height: 70px;
+    }
+    .sidenav:hover{
+      color: blue;
+      border: none;
+    }
+    .tracklist2{
+      width: 100%;
+    }
+    .fa, .far, .fas {
+      font-family: "Font Awesome 5 Free";
+    }
+    nav ul li, nav ul ul li{
+        display: block;
+        width: 100%;
+    }
+    nav ul ul{
+        top: 10px;
+        position: static;
+        float: none;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+    }
+    .teamlist{
+      width: 100%;
+    }
+    nav ul ul ul li{
+        position: static;
+    }
+    nav ul ul li a{
+      font-size: 26px;
+      line-height: 32px;
+    }
+    nav ul ul a{
+        padding-left:40px ;
+    }
+    nav ul ul ul a{
+        padding-left:40px ;
+    }
+    .show{
+        display: block;
+        color: wheat;
+        font-size: 28px;
+        padding: 0 20px;
+        line-height: 70px;
+        cursor: pointer;
+    }
+    .show:hover{
+        color:  blue;
+    }
+    .icon{
+        display: block;
+        color:wheat;
+        position: absolute;
+        right: 15px;
+        top: 1px;
+        line-height: 70px;
+        font-size: 32px;
+        cursor: pointer;
+    }
+    .content{
+      z-index: -1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-51%);
+      text-align: center;
+    }
+    span.cancel:before{
+      content: '\f00d';
+    }
+    nav ul li a:hover{
+        box-shadow: none;
+    }
+    .show + a, ul{
+        display: none;
+    }
+    [id^=btn]:checked + ul{
+        display: block;
+        margin-right: 2px;
+        
+    }
+  }
