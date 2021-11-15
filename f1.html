@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="f1.css">
+    
+</head>
+<body>
+    <section class="header">
+        <nav class="blur">
+          <a href="f1.html"><img src="F1U.png" width="180px"></a>
+            <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+            </label>
+            <input type="checkbox" id="btn">
+            <ul>
+              <li><a href="f1.html"  class="sidenav">HOME</a></li>
+              <li>
+                <label for="btn-1" class="show">CALENDAR</label>
+                <a href="Calendar.html">CALENDAR</a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                  <li><a href="BahrainGP.html">Bahrain Grand Prix</a></li>
+                  <li><a href="ImolaGP.html">Emilia Romania Grand Prix</a></li>
+                  <li><a href="PortugeseGP.html">Portugese Grand Prix</a></li>
+                  <li><a href="SpanishGP.html">Spanish Grand Prix</a></li>
+                  <li><a href="MonacoGP.html">Monaco Grand Prix</a></li>
+                  <li><a href="AzerbaijanGP.html">Azerbaijan Grand Prix</a></li>
+                  <li><a href="FrenchGP.html">French Grand Prix</a></li>
+                  <li><a href="StyrianGP.html">Styrian Grand Prix</a></li>
+                  <li><a href="AustrianGP.html">Austrian Grand Prix</a></li>
+                  <li><a href="BritishGP.html">British Grand Prix</a></li>
+                  <li><a href="HungarianGP.html">Hungarian Grand Prix</a></li>
+                  <li><a href="BelgianGP.html">Belgian Grand Prix</a></li>
+                  <li><a href="DutchGP.html">Dutch Grand Prix</a></li>
+                  <li><a href="ItalianGP.html">Italian Grand Prix</a></li>
+                  <li><a href="RussianGP.html">Russian Grand Prix</a></li>
+                  <li><a href="TurkishGP.html">Turkish Grand Prix</a></li>
+                  <li><a href="USAGP.html">United States Grand Prix</a></li>
+                  <li><a href="MexicanGP.html">Mexican Grand Prix</a></li>
+                  <li><a href="BrazilianGP.html">Brazilian Grand Prix</a></li>
+                  <li><a href="QatarGP.html">Qatar Grand Prix</a></li>
+                  <li><a href="Saudi ArabianGP.html">Saudi Arabian Grand Prix</a></li>
+                  <li><a href="Abu DhabiGP.html">Abu Dhabi Grand Prix</a></li>
+              </ul>
+              </li>
+              <li>
+                <label for="btn-2" class="show">TRACKS</label>
+                <a href="Tracks.html">TRACKS</a>
+                <input type="checkbox" id="btn-2">
+                <ul >
+                  <li><a href="Bahraincircuit.html">Bahrain International Circuit</a></li>
+                  <li><a href="Imola Circuit.html">Imola</a></li>
+                  <li><a href="Algrave Circuit.html">Algrave International Circuit</a></li>
+                  <li><a href="Circuit de Catalunya.html">Circuit de Catalunya</a></li>
+                  <li><a href="Monaco Circuit.html">Monaco</a></li>
+                  <li><a href="Baku City Circuit.html">Baku City Circuit</a></li>
+                  <li><a href="Circuit Paul Ricard.html">Circuit Paul Ricard</a></li>
+                  <li><a href="Red Bull Ring.html">Red Bull Ring</a></li>
+                  <li><a href="Silverstone.html">Silverstone</a></li>
+                  <li><a href="Hungaroring.html">Hungaroring</a></li>
+                  <li><a href="Spa-Francorchamps.html">Spa-Francorchamps</a></li>
+                  <li><a href="Zandvoort.html">Zandvoort</a></li>
+                  <li><a href="Monza.html">Monza</a></li>
+                  <li><a href="Sochi Autodrom.html">Sochi Autodrom</a></li>
+                  <li><a href="Istanbul Park.html">Istanbul Park</a></li>
+                  <li><a href="COTA.html">Circuit Of The Americas</a></li>
+                  <li class="tracklist2.html"><a href="AHRC">Autódromo Hermanos Rodríguez</a></li>
+                  <li><a href="Interlagos.html">Interlagos</a></li>
+                  <li><a href="Losail Circuit.html">Losail International Circuit</a></li>
+                  <li><a href="Jeddah.html">Jeddah</a></li>
+                  <li><a href="Yas Marina Circuit.html">Yas Marina Circuit</a></li>
+                </ul>
+              </li>
+              <li>
+                <label for="btn-3" class="show">CHAMPIONSHIP STANDINGS</label>
+                <a href="Championshipstandings.html">CHAMPIONSHIP STANDINGS</a>
+                <input type="checkbox" id="btn-3">
+                <ul>
+                  <li><a href="Constructors Championship.html">Constructors Championship</a></li>
+                  <li><a href="Drivers Championship.html">Drivers Championship</a></li>
+                </ul>
+              </li>
+              <li>
+                <label for="btn-4" class="show">TEAMS</label>
+                <a href="Teams.html">TEAMS</a>
+                <input type="checkbox" id="btn-4">
+                <ul class="teamlist">
+                  <li><a href="Mercedes.html">MERCEDES</a></li>
+                  <li><a href="Redbull.html">REDBULL</a></li>
+                  <li><a href="Mclaren.html">MCLAREN</a></li>
+                  <li><a href="Astonmartin.html">ASTON MARTIN</a></li>
+                  <li><a href="Ferrari.html">FERRARI</a></li>
+                  <li><a href="Alphatauri.html">ALPHA TAURI</a></li>
+                  <li><a href="Alpine.html">ALPINE</a></li>
+                  <li><a href="Alfaromeo.html">ALFA ROMEO</a></li>
+                  <li><a href="Williams.html">WILLIAMS</a></li>
+                  <li><a href="Haas.html">HAAS</a></li>
+                </ul>
+              </li>
+              <li>
+                <label for="btn-5" class="show">F1 CARS</label>
+                <a href="#">F1 CARS</a>
+                <input type="checkbox" id="btn-5">
+                <ul class="carlist">
+                  <li><a href="F1 Team Cars.html">F1 Team Cars</a></li>
+                  <li><a href="Car Components.html">Car Components</a></li>
+                </ul>
+              </li>
+              <li><a href="Live.html" class="sidenav">F1 LIVE</a></li>
+            </ul>
+          </nav>
+        <div class="textb">
+            <h1 class="effect1 effect2">Welcome To Formula 1</h1>
+            <p>The pinnacle of Motoracing</p>
+        </div>
+        <script>
+          $('.icon').click(function(){
+            $('span').toggleClass("cancel");
+          });
+       </script>
+    </section>
+    <section>
+      <center><h1 class="heada">About Formula 1</h1>
+        <p class="abouta">It is the most popular and highest class of motoracing and also reffered to as the pinnacle of motoracing.</p>
+      </center>
+    </section>
+    <div class="infoa">
+      <h2 class="head2a"> What happens in Formula 1? </h2>
+    <p> It starts from summer in March and ends in winter in December.<br>
+      There are car races event also known as Grand Prix held at diff racetracks(circuits) in diff countries throughtout the season.<br>
+      There are currently 10 teams with 2 drivers each competes with each  other to become the best.
+    </p>
+    </div>
+    <div class="infoa">
+      <h2 class="head2a">How it is held?</h2>
+    <p>It follows a specific calendar which tells the date and venue of the next Grand prix.
+      The grand prix is usually held on weekends.
+    </p>
+  </div>
+  <div class="infoa">
+    <h2 class="head2a">What is a Grnad Prix and what happens in grand prix?</h2>
+    <p>It is a 3 day event held at the weekend where the first day FP1 and FP2 are held, on the second day FP3 and Qualifying is held and on the last day the Race is held.</p>
+  </div>
+  <center><h1 class="head3a">Important Formula 1 Terms and Information</h1>
+    <div class="termsa">
+    </center>
+      <div class="detailsa">
+        <summary><h1 class="basicsa">F1 Basics ></h1></summary>
+        <details>
+          <summary class="topicsa"><h1>Aerodynamics</h1></summary>
+          <h2 class="topics2a">Aerodynamics</h2>
+          <p class="define">The study about how the air flows around the f1 and how it affects the car its components and it performance. </p>
+          
+          <h2 class="topics2a">CAD</h2>
+          <p class="define">A switch in the cockpit to alter the split of the car's braking power between the front and the rear wheels 
+            <br>according to a driver's wishes.</p>
+          
+            <h2 class="topics2a">CFD</h2>
+          <p class="define">Short for Computational fluid dynamics, a tool used by F1 designers that uses complex mathematics and simulation
+            <br> to predict aerodynamic airflow. Normally used in conjunction with traditional wind tunnel research.</p>
+          
+            <h2 class="topics2a">Clean air</h2>
+          <p class="define">Air that isn't turbulent, and thus offers optimum aerodynamic conditions, as experienced by a car at the head of the field.</p>
+          
+          <h2 class="topics2a">Coanda effect</h2>
+          <p class="define">The tendency of a fluid jet, such as airflow, to be attracted to a nearby surface. F1 aerodynamicists use the effect to 
+            <br>help divert airflow to specific areas of the car, for example from the exhaust exit to the rear diffuser. </p>
+            <h2 class="topics2a">Downforce</h2>
+          <p class="define">The aerodynamic force that is applied in a downwards direction as a car travels forwards. This is harnessed to improve a 
+            <br>car's traction and its handling through corners.</p>
+          
+            <h2 class="topics2a">Drag</h2>
+          <p class="define">The aerodynamic resistance experienced as a car travels forwards.</p>
+          
+            <h2 class="topics2a">DRS</h2>
+          <p class="define">Also known as adjustable rear wings, DRS (Drag Reduction System) rear wings allow the driver to adjust the wing between two
+            <br> pre-determined settings from the cockpit. The system's availability is electronically governed - it can be used at any time in practice
+            <br> and qualifying (unless a driver is on wet-weather tyres), but during the race can only be activated when a driver is less than one 
+            <br>second behind another car at pre-determined points on the track. The system is then deactivated once the driver brakes. In combination 
+            <br>with KERS, it is designed to boost overtaking. Also like KERS, it isn't compulsory.</p>
+            
+          <h2 class="topics2a">Slipstreaming</h2>
+          <p class="define">A driving tactic when a driver is able to catch the car ahead and duck in behind its rear wing to benefit from a reduction
+            <br> in drag over its body and hopefully be able to achieve a superior maximum speed to slingshot past before the next corner.</p>
+          
+          <h2 class="topics2a">Turbulence</h2>
+          <p class="define">The result of the disruption of airflow caused by an interruption to its passage, such as when it hits a rear wing and its
+            <br> horizontal flow is spoiled. </p>
+          
+        </details>
+        <details>
+          <summary class="topicsa"><h1>Chassis</h1></summary>
+          <h2 class="topics2a">Chassis</h2>
+          <p class="define">The main part of a racing car to which the engine and suspension are attached is called the chassis.</p>
+          
+          <h2 class="topics2a">Airbox</h2>
+          <p class="define">It is a part of engine intake which is above the drivers head and is the main source of air for the engine.</p>
+          <h2 class="topics2a">Ballast</h2>
+          <p class="define">Weights fixed around the car to maximise its balance and bring it up to the minimum weight limit.</p>
+          <h2 class="topics2a">Bargeboard</h2>
+          <p class="define">The consequence of a tyre, or part of a tyre, overheating. Excess heat can cause rubber to soften and break 
+            <br>away in chunks from the body of the tyre. Blistering can be caused by the selection of an inappropriate tyre compound 
+            <br>(for example, one that is too soft for circuit conditions), too high tyre pressure, or an improperly set up car. </p>
+          <h2 class="topics2a">Bodywork</h2>
+          <p class="define">The carbon fibre sections fitted onto the monocoque before the cars leave the pits, such as the engine 
+            <br>cover, the cockpit top and the nosecone. </p>
+          <h2 class="topics2a">Bottoming</h2>
+          <p class="define">When a car's chassis hits the track surface as it runs through a sharp compression and reaches the bottom of 
+            <br>its suspension travel.</p>
+
+          <h2 class="topics2a">Cockpit</h2>
+          <p class="define">The section of the chassis in which the driver sits.</p>
+
+          <h2 class="topics2a">Diffuser</h2>
+          <p class="define">The rear section of the car's floor or undertray where the air flowing under the car exits. The design of the 
+            <br>diffuser is crucial as it controls the speed at which the air exits. The faster its exit, the lower the air pressure beneath 
+            <br>the car, and hence the more downforce the car generates.</p>
+          
+            <h2 class="topics2a">Endplate</h2>
+          <p class="define">The vertical panels that form the outer edges of a car's front and rear wings and to which the main wing 
+            <br>elements are attached.</p>
+          
+            <h2 class="topics2a">Kevlar</h2>
+          <p class="define">A synthetic fibre that is combined with epoxy resin to create a strong, lightweight composite used in F1 car
+            <br> construction.</p>
+          
+            <h2 class="topics2a">Monocoque</h2>
+          <p class="define">The single-piece tub in which the cockpit is located, with the engine fixed behind it and the front suspension
+            <br> on either side at the front.</p>
+          
+            <h2 class="topics2a">Plank</h2>
+          <p class="define">A hard wooden strip (also known as a skid block) that is fitted front-to-back down the middle of the underside
+            <br> of all cars to check that they are not being run too close to the track surface, something that is apparent if the wood is
+            <br> excessively worn.</p>
+          
+            <h2 class="topics2a">Sidepod</h2>
+          <p class="define">The part of the car that flanks the sides of the monocoque alongside the driver and runs back to the rear wing,
+            <br> housing the radiators.</p>
+          
+            <h2 class="topics2a">Tub</h2>
+          <p class="define">Another name for the chassis or monocoque, so called because of its shape.</p>
+
+            <h2 class="topics2a">Undertray</h2>
+          <p class="define">A separate floor to the car that is bolted onto the underside of the monocoque.</p>
+
+            <h2 class="topics2a">Wheelbase</h2>
+          <p class="define">The distance between the centre points of the front and rear wheels. An F1 car's wheelbase influences the
+            <br> way it handles.</p>
+
+
+        </details>
+        <details>
+          <summary class="topicsa"><h1>Rules & Penalty</h1></summary>
+          <h2 class="topics2a">Appeal</h2>
+          <p class="define">An action that a team takes on its drivers' behalf if it feels that they have been unfairly penalised by the 
+            <br>race officials.</p>
+          <h2 class="topics2a">Drive-through penalty</h2>
+          <p class="define">One of two penalties that can be handed out at the discretion of the Stewards whilst the race is still running. 
+            <br>Drivers must enter the pit lane, drive through it complying with the speed limit, and re-join the race without stopping. </p>
+          <h2 class="topics2a">Protest</h2>
+          <p class="define">An action lodged by a team when it considers that another team or competitor has transgressed the rules. </p>
+          <h2 class="topics2a">Scrutineering</h2>
+          <p class="define">The technical checking of cars by the officials to ensure that none are outside the regulations. </p>
+          
+          <h2 class="topics2a">Steward</h2>
+          <p class="define">One of three high-ranking officials at each Grand Prix appointed to make decisions. </p>
+          
+          <h2 class="topics2a">Stop-go penalty</h2>
+          <p class="define">A penalty given that involves the driver calling at his pit and stopping for 10 seconds - with no refuelling or
+            <br> tyre-changing allowed. </p>
+        </details>
+        <details>
+          <summary class="topicsa"><h1>Race</h1></summary>
+          <h2 class="topics2a">Backmarker</h2>
+          <p class="define">A term used to describe a driver at the rear end of the field, often when he is encountered by the race leaders.
+            <br> Blue flags are used to inform the backmarker when he should let a faster car past.</p>
+          <h2 class="topics2a">Delta time</h2>
+          <p class="define">A term used to describe the time difference between two different laps or two different cars. For example, there
+            <br> is usually a negative delta between a driver's best practice lap time and his best qualifying lap time because he uses a 
+            <br>low fuel load and new tyres. </p>
+          <h2 class="topics2a">Formation lap</h2>
+          <p class="define">The lap before the start of the race when the cars are driven round from the grid to form up on the grid again for
+            <br> the start of the race. Sometimes referred to as the warm-up lap or parade lap. </p>
+          <h2 class="topics2a">Installation lap</h2>
+          <p class="define">A lap done on arrival at a circuit, testing functions such as throttle, brakes and steering before heading back
+            <br> to the pits without crossing the finish line. </p>
+          <h2 class="topics2a">Jump start</h2>
+          <p class="define">When a driver moves off his grid position before the five red lights have been switched off to signal the start.
+            <br> Sensors detect premature movement and a jump start earns a driver a penalty. </p>
+            
+          <h2 class="topics2a">Lollipop</h2>
+          <p class="define">The sign on a stick held in front of the car during a pit stop to inform the driver to apply the brakes and then to
+            <br> engage first gear prior to the car being lowered from its jacks. </p>
+
+          <h2 class="topics2a">Out brake</h2>
+          <p class="define">A term used to describe a driver braking either too late or too softly and subsequently overrunning a corner. A common
+            <br> mistake made during overtaking moves. </p>
+
+          <h2 class="topics2a">Pit board</h2>
+          <p class="define">A board held out on the pit wall to inform a driver of his race position, the time interval to the car ahead or the
+            <br> one behind, plus the number of laps of the race remaining. </p>
+
+          <h2 class="topics2a">Pole position</h2>
+          <p class="define">The first place on the starting grid, as awarded to the driver who recorded the fastest lap time in qualifying. </p>
+
+          <h2 class="topics2a">Reconnaissance lap</h2>
+          <p class="define">A lap completed when drivers leave the pits to assemble on the grid for the start. If a driver decides to do several,
+            <br> they must divert through the pit lane as the grid will be crowded with team personnel. </p>
+
+          <h2 class="topics2a">Retirement</h2>
+          <p class="define">When a car has to drop out of the race because of an accident or mechanical failure. </p>
+
+          <h2 class="topics2a">Safety Car</h2>
+          <p class="define">The course vehicle that is called from the pits to run in front of the leading car in the race in the event of a problem
+            <br> that requires the cars to be slowed. </p>
+        </details>
+        <details>
+          <summary class="topicsa"><h1>Engine</h1></summary>
+          <h2 class="topics2a">ECU</h2>
+          <p class="define">Short for Electronic Control Unit, a standard unit that controls the electrical systems on all F1 cars including
+            <br> the engine and gearbox. </p>
+          <h2 class="topics2a">Energy Store</h2>
+          <p class="define">The Energy Store (sometimes abbreviated to ES) is an integral part of an F1 car's powertrain and ERS. Located 
+            <br>in the fuel cell and weighing between 20-25kg, the Energy Store usually consists of lithium ion batteries. The Energy Store
+            <br> can store (or return to the drivetrain) 4MJ of energy per lap, although MGU-K (see ERS) may only charge the Energy Store 
+            <br>with 2MJ per lap. </p>
+          <h2 class="topics2a">ERS</h2>
+          <p class="define">Energy Recovery Systems, or ERS for short, consist of Motor Generator Units that harness waste heat energy 
+            <br>(from the turbocharger) and waste kinetic energy (from the braking system). This energy is then stored and subsequently used
+            <br> to propel the car. An F1 car has two ERS: MGU-K (which stands for Motor Generator Unit - Kinetic) and MGU-H (which stands
+            <br> for Motor Generator Unit - Heat). These systems are complemented by an Energy Store (ES) and control electronics. ERS is
+            <br> capable of providing 120kw of power (approximately 160bhp) for approximately 33 seconds per lap. </p>
+          <h2 class="topics2a">Powertrain</h2>
+          <p class="define">The term used to describe the entire system providing an F1 car's power. The powertrain (or power unit as it is
+            <br> sometimes known) comprises of the engine, two Energy Recovery Systems (ERS) and an Energy Store.</p>
+          
+            <h2 class="topics2a">Torque</h2>
+          <p class="define">Literally, the turning or twisting force of an engine, torque is generally used as a measure of an engine's
+            <br> flexibility. An engine may be very powerful, but if it has little torque then that power may only be available over a
+            <br> limited rev range, making it of limited use to the driver. An engine with more torque - even if it has less power - may
+            <br> actually prove quicker on many tracks, as the power is available over a far wider rev range and hence more accessible.
+            <br> Good torque is particularly vital on circuits with a number of mid- to slow-speed turns, where acceleration out of the
+            <br> corners is essential to a good lap time. </p>
+            
+          <h2 class="topics2a">Traction</h2>
+          <p class="define">The degree to which a car is able to transfer its power onto the track surface for forward progress. </p>
+          
+          <h2 class="topics2a">Traction control</h2>
+          <p class="define">A computerised system that detects if either of a car's driven (rear) wheels is losing traction - ie spinning 
+            <br> and transfers more drive to the wheel with more traction, thus using its more power efficiently. Outlawed from the
+            <br> 2008 season onwards. </p>
+          
+          <h2 class="topics2a">Turbocharger</h2>
+          <p class="define">Attached to the engine, a turbocharger uses an exhaust driven turbine to drive a compressor to increase the
+            <br> density of the intake air consumed by the engine. Denser air helps an engine create more power for its size. The residual
+            <br> heat energy contained in the exhaust gases after expansion in the cylinders of the engine is converted to mechanical
+            <br> shaft power by the exhaust turbine. The mechanical power from the turbine is used to drive not only the compressor, but
+            <br> also the MGU-H (see ERS). </p>
+
+          <h2 class="topics2a"></h2>
+          <p class="define"> </p>
+        </details>
+        <details>
+          <summary class="topicsa"><h1>Car Setup</h1></summary>
+          <h2 class="topics2a">Brake balance</h2>
+          <p class="define">A switch in the cockpit to alter the split of the car's braking power between the front and the rear wheels 
+            <br>according to a driver's wishes.</p>
+          <h2 class="topics2a">Camber</h2>
+          <p class="define">The angle at which a tyre leans into or away from the car relative to the vertical axis. Engineers will vary 
+            <br>camber to improve a car's handling characteristics. </p>
+          <h2 class="topics2a">Handling</h2>
+          <p class="define">A term used to describe a car's responsiveness to driver input and its ability to negotiate corners effectively.
+            <br> A car that handles well will typically be well-balanced and not understeer or oversteer to any great degree.</p>
+          <h2 class="topics2a">Oversteer</h2>
+          <p class="define">When a car's rear end doesn't want to go around a corner and tries to overtake the front end as the driver turns
+            <br> in towards the apex. This often requires opposite-lock to correct, whereby the driver turns the front wheels into the skid. </p>
+          <h2 class="topics2a">Paddles</h2>
+          <p class="define">Levers on either side of the back of a steering wheel with which a driver changes up and down the gearbox. </p>
+          
+          <h2 class="topics2a">Ride height</h2>
+          <p class="define"> The height between the track's surface and the floor of the car.</p>
+          
+          <h2 class="topics2a">Shakedown</h2>
+          <p class="define">A brief test when a team is trying a different car part for the first time before going back out to drive at
+            <br> 100 percent to set a fast time. </p>
+          
+          <h2 class="topics2a">Understeer</h2>
+          <p class="define">Where the front end of the car doesn't want to turn into a corner and slides wide as the driver tries to turn in
+            <br> towards the apex. </p>
+          
+          <h2 class="topics2a"></h2>
+          <p class="define"> </p>
+        </details>
+        <details>
+          <summary class="topicsa"><h1>Teams</h1></summary>
+          <h2 class="topics2a">Debrief</h2>
+          <p class="define">The meeting between a team's drivers and engineers after an on-track session in which car set-up, performance 
+            <br>and strategy are discussed.</p>
+          <h2 class="topics2a">Drivers' briefing</h2>
+          <p class="define">A meeting of all the drivers and the FIA race director to discuss issues relating to that particular Grand Prix
+            <br> and circuit. Other subjects, such as driving standards and safety, may also be discussed. </p>
+        </details>
+        <details>
+          <summary class="topicsa"><h1>Tracks</h1></summary>
+          <h2 class="topics2a">Apex</h2>
+          <p class="define">The middle point of the inside line around a corner at which drivers aim their cars.</p>
+          
+          <h2 class="topics2a">Chicane</h2>
+          <p class="define">A tight sequence of corners in alternate directions. Usually inserted into a circuit to slow the cars, often 
+            <br>just before what had been a high-speed corner. </p>
+
+          <h2 class="topics2a">Gravel trap</h2>
+          <p class="define">A bed of gravel on the outside of corners designed with the aim of bringing cars that fall off the circuit to a halt. </p>
+          
+          <h2 class="topics2a">Marbles</h2>
+          <p class="define">The small pieces of tyre rubber that accumulate at the side of the track off the racing line. Typically these
+            <br> are very slippery when driven on.</p>
+          <h2 class="topics2a">Paddock</h2>
+          <p class="define">An enclosed area behind the pits in which the teams keep their transporters and motor homes. There is no 
+            <br>admission to the public.</p>
+          
+          <h2 class="topics2a">Pit wall</h2>
+          <p class="define">Where the team owner, managers and engineers spend the race, usually under an awning to keep sun and rain off
+            <br> their monitors. </p>
+
+          <h2 class="topics2a">Pits</h2>
+          <p class="define">An area of track separated from the start/finish straight by a wall, where the cars are brought for new tyres
+            <br> and fuel during the race, or for set-up changes in practice, each stopping at their respective pit garages. </p>
+
+          <h2 class="topics2a">Rumblestrip</h2>
+          <p class="define">A bumpy, often saw-toothed strip of kerbing usually found on the exit of a corner to warn the driver of the edge
+            <br> of the track.</p>
+
+          <h2 class="topics2a">Sectors</h2>
+          <p class="define">For timing purposes the lap is split into three sections, each of which is roughly a third of the lap. These 
+            <br>sections are officially known as Sector 1, Sector 2 and Sector 3. </p>
+                
+        </details>
+        <details>
+          <summary class="topicsa"><h1>Tyres</h1></summary>
+          <h2 class="topics2a">Blistering</h2>
+          <p class="define">The consequence of a tyre, or part of a tyre, overheating. Excess heat can cause rubber to soften and break 
+            <br>away in chunks from the body of the tyre. Blistering can be caused by the selection of an inappropriate tyre compound 
+            <br>(for example, one that is too soft for circuit conditions), too high tyre pressure, or an improperly set up car.</p>
+          <h2 class="topics2a">Degradation</h2>
+          <p class="define">A term used to describe the process by which a tyre loses performance or grip. Different from tyre wear which 
+            <br>concerns the process by which the tread is worn away.</p>
+          
+            <h2 class="topics2a">Compound</h2>
+          <p class="define">Tread compound is the part of any tyre in contact with the road and therefore one of the major factors in deciding
+            <br> tyre performance. The ideal compound is one with maximum grip but which still maintains durability and heat resistance. 
+            <br>A typical Formula One race compound will have more than ten ingredients such as rubbers, polymers, sulphur, carbon black, oil and 
+            <br>other curatives. Each of these includes a vast number of derivatives any of which can be used to a greater or lesser degree. Very 
+            <br>small changes to the mix can change compound performance.</p>
+          
+            <h2 class="topics2a">Flat spot</h2>
+          <p class="define">The term given to the area of a tyre that is worn heavily on one spot after a moment of extreme braking or in the
+            <br> course of a spin. This ruins its handling, often causing severe vibration, and may force a driver to pit for a replacement
+            <br> set of tyres. </p>
+          <h2 class="topics2a">Graining</h2>
+          <p class="define">When a car slides, it can cause little bits or rubber ('grains') to break away from the tyre's grooves. These then
+            <br> stick to the tread of the tyre, effectively separating the tyre from the track surface very slightly. For the driver, the
+            <br> effect is like driving on ball bearings. Careful driving can clear the graining within a few laps, but will obviously have an
+            <br> effect on the driver's pace. Driving style, track conditions, car set-up, fuel load and the tyre itself all play a role in
+            <br> graining. In essence, the more the tyre moves about on the track surface (ie slides), the more likely graining is. </p>
+          
+          <h2 class="topics2a">Grip</h2>
+          <p class="define">The amount of traction a car has at any given point, affecting how easy it is for the driver to keep control 
+            <br>through corners. </p>
+          
+          <h2 class="topics2a">Heat cycle</h2>
+          <p class="define">A term used to describe the process by which a tyre is heated through use and then cooled down. This has the effect of
+            <br> slightly changing the properties of the compound and can improve durability. </p>
+          
+          <h2 class="topics2a">Lock-up</h2>
+          <p class="define"> The term used to describe a driver braking sharply and 'locking' one or more tyres whilst the others continue rotating.
+            <br> Tyre smoke and flat spots are common side effects.</p>
+          
+          <h2 class="topics2a">Tyre compound</h2>
+          <p class="define">The type of rubber mix used in the construction of a tyre, ranging from soft through medium to hard, with each offering
+            <br> a different performance and wear characteristic. </p>
+
+          <h2 class="topics2a">Tyre warmer</h2>
+          <p class="define">An electric blanket that is wrapped around the tyres before they are fitted to the car so that they will start closer
+            <br> to their optimum operating temperature. </p>
+            
+        </details>
+        <details>
+          <summary class="topicsa"><h1>Other</h1></summary>
+          <h2 class="topics2a">G-force</h2>
+          <p class="define">A physical force equivalent to one unit of gravity that is multiplied during rapid changes of direction or 
+            <br>velocity. Drivers experience severe G-forces as they corner, accelerate and brake. </p>
+          <h2 class="topics2a">HANS Device</h2>
+          <p class="define">Short for Head and Neck Support Device, a mandatory safety device that fits over the driver's shoulders and
+            <br> connects to the back of the helmet to prevent excessive head and neck movement in the event of an accident. </p>
+          <h2 class="topics2a">Headrest</h2>
+          <p class="define">The removable energy-absorbing foam that surrounds the driver's helmet in the cockpit. Three different grades
+            <br> of foam are used, depending on the ambient temperature. </p>
+            
+          <h2 class="topics2a">Marshal</h2>
+          <p class="define">A course official who oversees the safe running of the race. Marshals have several roles to fill, including
+            <br> observing the spectators to ensure they do not endanger themselves or the competitors, acting as fire wardens, helping
+            <br> to remove stranded cars/drivers from the track and using waving flags to signal the condition of the track to drivers. </p>
+          
+          <h2 class="topics2a">Nomex</h2>
+          <p class="define">An artificial, fire-resistant fibre used to make drivers' race overalls, underwear, gloves and boots. </p>
+          
+          <h2 class="topics2a">Parc ferme</h2>
+          <p class="define"> A fenced-off area into which cars are driven after qualifying and the race, where no team members are allowed
+            <br> to touch them except under the strict supervision of race stewards.</p>
+          
+          <h2 class="topics2a">Tear-off strips</h2>
+          <p class="define">See-through plastic strips that drivers fit to their helmet's visor before the start of the race and then remove
+            <br> as they become dirty. </p>
+          
+          <h2 class="topics2a">Telemetry</h2>
+          <p class="define">A system that beams data related to the engine and chassis to computers in the pit garage so that engineers
+            <br> can monitor that car's behaviour. </p>
+          
+          <h2 class="topics2a">Visor strip</h2>
+          <p class="define">The strip of carbon fibre-reinforced Zylon that is fitted to the top edge of a driver's helmet for added
+            <br> protection. </p>
+          
+          <h2 class="topics2a">Zylon</h2>
+          <p class="define">A synthetic material often found in bulletproof vests which has strong anti-penetration properties and is
+            <br> used to strengthen drivers' helmets and the sides of the cockpit. </p>
+
+          <h2 class="topics2a"></h2>
+          <p class="define"> </p>
+        </details>
+      </div>
+    </div>
+    <center>
+      <h1 class="head4a">News</h1>
+    </center>
+    </body>
+</html>
